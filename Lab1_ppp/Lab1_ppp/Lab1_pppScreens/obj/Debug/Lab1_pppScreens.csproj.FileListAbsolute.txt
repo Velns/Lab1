@@ -1,0 +1,36 @@
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\bin\Debug\Lab1_ppp.Screens.dll
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\bin\Debug\Lab1_ppp.Screens.pdb
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Screen 1.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\SketchStyles.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Screen 1.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Lab1_ppp.Screens_MarkupCompile.cache
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Lab1_ppp.Screens.g.resources
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Lab1_ppp.Screens.dll
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Lab1_ppp.Screens.pdb
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Screen 1_1.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Screen 1_1.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\UserBar.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Lab1_ppp.Screens_MarkupCompile.lref
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\UserBar.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Screen 1_2.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Screen 1_3.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Screen 1_2.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Screen 1_3.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\ProjectDataSources.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\SampleData\Data_user_cars\Data_user_cars.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Screen 1_4.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Screen 1_4.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Screen 1_5.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Screen 1_5.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Copy of FormFeedBack.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Copy of FormUser.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Copy of FormUserCars.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Copy of FormUserTalons.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Copy of UserBar.g.cs
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Copy of FormFeedBack.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Copy of FormUser.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Copy of FormUserCars.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Copy of FormUserTalons.baml
+C:\Users\Laiks\OneDrive\Лаби\ТРПЗ\2 Sem\Lab1_ppp\Lab1_ppp\Lab1_pppScreens\obj\Debug\Copy of UserBar.baml

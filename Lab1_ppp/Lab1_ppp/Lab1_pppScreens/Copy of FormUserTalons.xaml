@@ -1,0 +1,51 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:local="clr-namespace:Lab1_pppScreens" xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" xmlns:pb="clr-namespace:Microsoft.Expression.Prototyping.Behavior;assembly=Microsoft.Expression.Prototyping.Interactivity" xmlns:Custom="http://schemas.microsoft.com/wpf/2008/toolkit" xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" x:Name="Screen_1_3_Name"
+	x:Class="Lab1_pppScreens.Copy_of_FormUserTalons"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0.255*"/>
+			<ColumnDefinition Width="0.745*"/>
+		</Grid.ColumnDefinitions>
+		<ListView Margin="3.997,238,8,8" Grid.Column="1">
+			<ListView.View>
+				<GridView>
+					<GridViewColumn Header="User" DisplayMemberBinding="{Binding Number}"/>
+					<GridViewColumn Header="Num of talon" DisplayMemberBinding="{Binding Number}"/>
+					<GridViewColumn Header="Num of car" DisplayMemberBinding="{Binding Number}"/>
+					<GridViewColumn Header="Date start" DisplayMemberBinding="{Binding Number}"/>
+					<GridViewColumn Header="Date stop" DisplayMemberBinding="{Binding Number}"/>
+					<GridViewColumn Header="Parking place" DisplayMemberBinding="{Binding Number}"/>
+				</GridView>
+			</ListView.View>
+		</ListView>
+		<ComboBox HorizontalAlignment="Right" Margin="0,72.373,57,0" VerticalAlignment="Top" Width="175" Grid.Column="1">
+			<ComboBox Width="5" Height="0"/>
+		</ComboBox>
+		<Label HorizontalAlignment="Left" Margin="63.797,71.333,0,0" VerticalAlignment="Top" Width="78" Height="23" Content="Place" Grid.Column="1"/>
+		<ComboBox Margin="0,99.373,57,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="175" Grid.Column="1">
+			<ComboBox Width="5" Height="0"/>
+		</ComboBox>
+		<Label HorizontalAlignment="Left" Margin="63.797,98.333,0,0" VerticalAlignment="Top" Width="78" Height="23" Content="Car" Grid.Column="1"/>
+		<Label HorizontalAlignment="Left" Margin="63.797,124.333,0,0" VerticalAlignment="Top" Width="78" Height="23" Content="Date start" Grid.Column="1"/>
+		<Label HorizontalAlignment="Left" Margin="63.797,151.333,0,0" VerticalAlignment="Top" Width="78" Height="26" Content="Date stop" Grid.Column="1"/>
+		<Custom:DatePicker HorizontalAlignment="Right" Margin="0,125.333,57,0" VerticalAlignment="Top" Width="175" Grid.Column="1"/>
+		<Custom:DatePicker Margin="0,153.333,57,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="175" Grid.Column="1"/>
+		<Button HorizontalAlignment="Right" Margin="0,203,88,0" VerticalAlignment="Top" Width="144" Height="27" Content="Make a reservation" Grid.Column="1"/>
+		<Button Margin="63.797,203,0,0" VerticalAlignment="Top" Height="27" Content="Cancel a reservation" HorizontalAlignment="Left" Width="144" Grid.Column="1"/>
+		<local:Copy_of_UserBar d:IsPrototypingComposition="True"/>
+		<CheckBox HorizontalAlignment="Right" Margin="0,183.04,192.61,0" VerticalAlignment="Top" Content="Paid" Grid.Column="1"/>
+		<ComboBox HorizontalAlignment="Right" Margin="0,45.373,57,0" VerticalAlignment="Top" Width="175" Grid.Column="1">
+			<ComboBox Width="5" Height="0"/>
+		</ComboBox>
+		<Label HorizontalAlignment="Left" Margin="63.797,44.333,0,0" VerticalAlignment="Top" Width="78" Height="23" Content="User" Grid.Column="1"/>
+		<Label HorizontalAlignment="Left" Margin="63.797,17.333,0,0" VerticalAlignment="Top" Width="78" Height="23" Content="ID (Number)" Grid.Column="1"/>
+		<TextBlock Margin="0,17.333,57,0" VerticalAlignment="Top" Width="175" Height="23" Grid.Column="1" Text="NNNNNNNNNNN" TextWrapping="Wrap" HorizontalAlignment="Right"/>
+	</Grid>
+</UserControl>

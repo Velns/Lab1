@@ -1,0 +1,49 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	xmlns:local="clr-namespace:Lab1_pppScreens" x:Name="Screen_1_2_Name"
+	x:Class="Lab1_pppScreens.Copy_of_FormUserCars"
+	Width="640" Height="480">
+	<UserControl.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="ProjectDataSources.xaml"/>
+			</ResourceDictionary.MergedDictionaries>
+			<DataTemplate x:Key="ItemTemplate">
+				<StackPanel>
+					<TextBlock Text="{Binding Color}"/>
+					<TextBlock Text="{Binding Model}"/>
+					<TextBlock Text="{Binding Number}"/>
+					<TextBlock Text="{Binding Price}"/>
+				</StackPanel>
+			</DataTemplate>
+		</ResourceDictionary>
+	</UserControl.Resources>
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<Rectangle Fill="#FFDEDEDE" Stroke="Black" Margin="163.2,170.333,8,0" VerticalAlignment="Top" Height="19.372"/>
+		<ListView Margin="163.2,189.705,8,8" >
+			<ListView.View>
+				<GridView>
+					<GridViewColumn Header="Number" DisplayMemberBinding="{Binding Number}"/>
+					<GridViewColumn Header="Model" DisplayMemberBinding="{Binding Model}"/>
+					<GridViewColumn Header="User" DisplayMemberBinding="{Binding Number}"/>
+					<GridViewColumn Header="Price" DisplayMemberBinding="{Binding Price, StringFormat=\{0:C\}}"/>
+					<GridViewColumn Header="Color" DisplayMemberBinding="{Binding Color}"/>
+				</GridView>
+			</ListView.View>
+		</ListView>
+		<Label Margin="0,164.073,228.205,0" VerticalAlignment="Top" Height="25.632" Content="Cars:" HorizontalAlignment="Right"/>
+		<Button HorizontalAlignment="Right" Margin="0,29,44,0" VerticalAlignment="Top" Width="113" Height="28.589" Content="Add"/>
+		<Button HorizontalAlignment="Right" Margin="0,68.089,44,0" VerticalAlignment="Top" Width="113" Height="28.589" Content="Delete"/>
+		<Button HorizontalAlignment="Right" Margin="0,104.931,44,0" VerticalAlignment="Top" Width="113" Height="28.589" Content="Change"/>
+		<TextBox Margin="214,29,254,0" VerticalAlignment="Top" Height="23" Text="Number" TextWrapping="Wrap"/>
+		<TextBox Margin="214,56,254,0" VerticalAlignment="Top" Height="23" Text="Model" TextWrapping="Wrap"/>
+		<TextBox Margin="214,83.52,254,0" VerticalAlignment="Top" Height="23" Text="Price" TextWrapping="Wrap"/>
+		<TextBox Margin="214,110.52,254,0" VerticalAlignment="Top" Height="23" Text="Color" TextWrapping="Wrap"/>
+		<local:Copy_of_UserBar HorizontalAlignment="Left" Width="163.2" d:IsPrototypingComposition="True"/>
+	</Grid>
+</UserControl>
