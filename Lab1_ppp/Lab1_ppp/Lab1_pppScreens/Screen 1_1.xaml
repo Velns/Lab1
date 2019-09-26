@@ -29,27 +29,15 @@
 			<ColumnDefinition Width="0.255*"/>
 			<ColumnDefinition Width="0.745*"/>
 		</Grid.ColumnDefinitions>
-		<Rectangle Fill="#FFDEDEDE" Stroke="Black" Margin="0,172.662,8,0" VerticalAlignment="Top" Height="19.223" Grid.Column="1"/>
-		<Label HorizontalAlignment="Left" Margin="43.8,31,0,0" VerticalAlignment="Top" Width="90" Height="26" Content="Name" Grid.Column="1"/>
-		<Label HorizontalAlignment="Left" Margin="43.8,61,0,0" VerticalAlignment="Top" Width="90" Height="26" Content="Date of Birth" Grid.Column="1"/>
-		<Label HorizontalAlignment="Left" Margin="43.8,91,0,0" VerticalAlignment="Top" Width="90" Height="26" Content="Phone number" Grid.Column="1"/>
-		<TextBox Margin="171.8,31,33,0" VerticalAlignment="Top" Height="26" Grid.Column="1" Text="FULL NAME" TextWrapping="Wrap"/>
-		<TextBox Margin="171.8,93,33,0" VerticalAlignment="Top" Height="26" Grid.Column="1" Text="00-000-00-00" TextWrapping="Wrap"/>
-		<ListView Margin="0,191.885,8,8" Grid.Column="1" DataContext="{Binding}" ItemTemplate="{DynamicResource ItemTemplate}" ItemsSource="{Binding Collection}">
-			<ListView.View>
-				<GridView>
-					<GridViewColumn Header="Number" DisplayMemberBinding="{Binding Number}"/>
-					<GridViewColumn Header="Model" DisplayMemberBinding="{Binding Model}"/>
-					<GridViewColumn Header="Price" DisplayMemberBinding="{Binding Price, StringFormat=\{0:C\}}"/>
-					<GridViewColumn Header="Color" DisplayMemberBinding="{Binding Color}"/>
-				</GridView>
-			</ListView.View>
-		</ListView>
-		<Label Margin="189.005,169,227.205,0" VerticalAlignment="Top" Height="22.885" Content="User cars:" Grid.Column="1" d:LayoutOverrides="Width"/>
+		<Label HorizontalAlignment="Left" Margin="37.8,74,0,0" VerticalAlignment="Top" Width="90" Height="26" Content="Name" Grid.Column="1"/>
+		<Label HorizontalAlignment="Left" Margin="37.8,114,0,0" VerticalAlignment="Top" Width="90" Height="26" Content="Date of Birth" Grid.Column="1"/>
+		<Label HorizontalAlignment="Left" Margin="37.8,161,0,0" VerticalAlignment="Top" Width="90" Height="26" Content="Phone number" Grid.Column="1"/>
+		<TextBox Margin="165.8,74,39,0" VerticalAlignment="Top" Height="26" Grid.Column="1" Text="FULL NAME" TextWrapping="Wrap"/>
+		<TextBox Margin="165.8,161,39,0" VerticalAlignment="Top" Height="26" Grid.Column="1" Text="00-000-00-00" TextWrapping="Wrap"/>
 		<Label HorizontalAlignment="Right" Margin="0,227,-186,0" VerticalAlignment="Top" Width="8" Height="4" Content="Label" Grid.Column="1"/>
 		<local:UserBar d:IsPrototypingComposition="True"/>
-		<Button HorizontalAlignment="Right" Margin="0,131,129,0" VerticalAlignment="Top" Width="74" Height="23" Content="Save" Grid.Column="1"/>
-		<Button Margin="118.8,131,0,0" VerticalAlignment="Top" Height="23" Content="Reset" Grid.Column="1" HorizontalAlignment="Left" Width="74"/>
-		<Custom:DatePicker Margin="171.8,63,33,0" VerticalAlignment="Top" Grid.Column="1"/>
+		<Button HorizontalAlignment="Right" Margin="0,0,144,212" VerticalAlignment="Bottom" Width="74" Height="23" Content="Save" Grid.Column="1"/>
+		<Button Margin="103.8,0,0,212" VerticalAlignment="Bottom" Height="23" Content="Reset" Grid.Column="1" HorizontalAlignment="Left" Width="74"/>
+		<Custom:DatePicker Margin="165.8,116,39,0" VerticalAlignment="Top" Grid.Column="1"/>
 	</Grid>
 </UserControl>

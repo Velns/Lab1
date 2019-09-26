@@ -38,10 +38,9 @@
 		<ListView Margin="0,191.885,8,8" Grid.Column="1" >
 			<ListView.View>
 				<GridView>
-					<GridViewColumn Header="Number" DisplayMemberBinding="{Binding Number}"/>
-					<GridViewColumn Header="Model" DisplayMemberBinding="{Binding Model}"/>
-					<GridViewColumn Header="Price" DisplayMemberBinding="{Binding Price, StringFormat=\{0:C\}}"/>
-					<GridViewColumn Header="Color" DisplayMemberBinding="{Binding Color}"/>
+					<GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"/>
+					<GridViewColumn Header="Birthday" DisplayMemberBinding="{Binding Birthday}"/>
+					<GridViewColumn Header="Phone number" DisplayMemberBinding="{Binding Phone_number}"/>
 				</GridView>
 			</ListView.View>
 		</ListView>

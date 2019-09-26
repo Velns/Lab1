@@ -11,6 +11,7 @@
 
 using Lab1_pppScreens;
 using Microsoft.Expression.Prototyping.Behavior;
+using Microsoft.Expression.Prototyping.SketchControls;
 using System;
 using System.Diagnostics;
 using System.Windows;

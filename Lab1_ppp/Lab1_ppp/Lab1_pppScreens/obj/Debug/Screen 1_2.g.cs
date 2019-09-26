@@ -74,6 +74,12 @@ namespace Lab1_pppScreens {
         }
         
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal System.Delegate _CreateDelegate(System.Type delegateType, string handler) {
+            return System.Delegate.CreateDelegate(delegateType, this, handler);
+        }
+        
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Never)]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Design", "CA1033:InterfaceMethodsShouldBeCallableByChildTypes")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
